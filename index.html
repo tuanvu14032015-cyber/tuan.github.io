@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HACKER TERMINAL - NEON GREEN</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+
+<!-- MENU -->
+<div id="menu">
+    <div class="item" onclick="showTerminal()">Terminal</div>
+    <div class="item" onclick="playScan()">Scan</div>
+    <div class="item" onclick="toggleMatrix()">Toggle Matrix</div>
+    <div class="item" onclick="about()">About</div>
+</div>
+
+<!-- LOGO -->
+<div id="logo">
+    <h1>NEON-X</h1>
+    <p>Cyber Ops Terminal</p>
+</div>
+
+<!-- TERMINAL -->
+<div id="terminalBox">
+    <div id="output"></div>
+    <div id="inputLine">><span id="input"></span><span class="cursor"></span></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
